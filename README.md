@@ -20,6 +20,9 @@ Left-side is the screen after add `hehew-net-plus`. The original is on the right
 ![image](https://user-images.githubusercontent.com/344784/49923113-151d2e80-fee5-11e8-9317-b1bdb3b9906c.png)
 4. Copy and paste `Plus.js` to JS (left-side) and `Plus.css` to CSS (right-side).
 
+![image](https://user-images.githubusercontent.com/344784/49925532-d8086a80-feeb-11e8-8f48-323cee658254.png)
+
+
 ## Star
 Give me a star! if you like this project.
 
