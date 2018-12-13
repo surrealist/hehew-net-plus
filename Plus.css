@@ -1,0 +1,150 @@
+/*
+
+CSS (Cascading style sheet)
+
+By Suthep Sangvirotjanaphat
+https://github.com/surrealist/hehew-net-plus
+December 2018
+
+**/
+
+
+body,td { 
+	font-family: FiraCode Medium, Calibri, Sans-Serif;
+	color: dimgray;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+table, td {
+	border-width: 0px;
+} 
+
+#tableCall { 
+	margin-top: 15px;  
+}
+
+#tableCall, #tablePut, #tableFuture {
+	border-spacing: 5px;
+}
+
+#tableCall table {
+	border-spacing: 0px;
+}
+#tableCall table td {
+	padding: 0px;
+}
+
+#tableCall   > tbody > tr:nth-child(1) > td, 
+#tablePut    > tbody > tr:nth-child(1) > td, 
+#tableFuture > tbody > tr:nth-child(1) > td
+{
+	font-size: 22px;
+	color: #D84600;
+	padding-bottom: 2px;
+}
+
+#tableCall   > tbody > tr:nth-child(1) > td::before, 
+#tablePut    > tbody > tr:nth-child(1) > td::before, 
+#tableFuture > tbody > tr:nth-child(1) > td::before
+{
+	content: "• ";
+}
+
+
+input[type=text], select, option {
+	border: 1px solid silver;
+	border-width: 0 0 1 0;
+	border-radius: 0px;
+	padding: 2px 3px;
+	width: 80px;
+}
+input[type=text]:hover {
+	background-color: #FFC927;
+	border: 1px solid silver;
+	border-width: 0 0 1 0;
+}
+
+input[type=text]:focus {
+	background-color: #FFEAAC;
+	border: 1px solid silver;
+	border-width: 0px 0px 1px 0px;
+} 
+
+input[type=button] {
+	border: 1px solid silver;
+	border-radius: 3px;
+	background-color: whitesmoke;
+	margin-left: 4px;
+	margin-right: 2px;
+	padding: 2px 8px; 
+}
+
+input[type=button]:hover {
+	background-color: #E5FB5F;
+}
+
+table
+{
+	border-spacing: 0px;
+}
+
+#Long_Call_Table > thead > tr:nth-child(1) td:nth-child(1),
+#Long_Put_Table > thead > tr:nth-child(1) td:nth-child(1),
+#Short_Call_Table > thead > tr:nth-child(1) td:nth-child(1),
+#Short_Put_Table > thead > tr:nth-child(1) td:nth-child(1),
+#Short_Table > thead > tr:nth-child(1) td:nth-child(1),
+#Long_Table > thead > tr:nth-child(1) td:nth-child(1)
+{
+	text-align: center;
+	font-size: 16px;
+	background: whitesmoke;
+	padding: 5px;
+	border-bottom: 1px dotted dimgray;
+}
+
+#Long_Call_Table > thead > tr:nth-child(1) td:nth-child(2),
+#Long_Put_Table > thead > tr:nth-child(1) td:nth-child(2),
+#Short_Call_Table > thead > tr:nth-child(1) td:nth-child(2),
+#Short_Put_Table > thead > tr:nth-child(1) td:nth-child(2),
+#Short_Table > thead > tr:nth-child(1) td:nth-child(2),
+#Long_Table > thead > tr:nth-child(1) td:nth-child(2)
+{ 
+	background: whitesmoke;
+	padding: 5px;
+	border-bottom: 1px dotted dimgray;
+}
+
+#Long_Call_Table > thead > tr > td:nth-child(2) {
+	text-align: right;
+}
+
+#Long_Call_Table > thead > tr:nth-child(1) td:nth-child(1)::before {
+	content: "__/ ";
+}
+#Long_Put_Table > thead > tr:nth-child(1) td:nth-child(1)::before {
+	content: "\\__ ";
+}
+
+#Short_Call_Table > thead > tr:nth-child(1) td:nth-child(1):before {
+	content: "▔\\ ";
+}
+
+#Short_Put_Table > thead > tr:nth-child(1) td:nth-child(1):before {
+	content: "/▔  ";
+}
+
+#Short_Table > thead > tr:nth-child(1) td:nth-child(1)::before {
+	content: "\\ ";
+}
+
+#Long_Table > thead > tr:nth-child(1) td:nth-child(1)::before {
+	content: "/ ";
+}
+
+
+#Long_Call_Table > thead > tr:nth-child(2) td {
+	text-align: center;
+}
+
+/* EOF */
