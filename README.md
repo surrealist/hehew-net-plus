@@ -7,6 +7,7 @@ Enhance [Hehew.net](http://hehew.net) web site with additional styles and code.
 * Cleaner user interface
 * Auto paint chart when press `Enter` key
 * Add confirmation box before `Save` or `Clear`
+* (new in JS v1.1) Auto save when press `Enter` key and auto load SLOT #1
 
 ## Screen shot
 Left-side is the screen after add `hehew-net-plus`. The original is on the right-side.  
