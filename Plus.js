@@ -1,10 +1,11 @@
 /*
 
 JS (JavaScript code) 
+version 1.1.0
 
 By Suthep Sangvirotjanaphat
 https://github.com/surrealist/hehew-net-plus
-December 2018
+December 2018 
 
 **/
 
