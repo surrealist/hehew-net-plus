@@ -5,7 +5,7 @@ version 1.1.0
 
 By Suthep Sangvirotjanaphat
 https://github.com/surrealist/hehew-net-plus
-December 2018 
+December 2018
 
 **/
 
@@ -21,6 +21,8 @@ var max = 1200;
 $("input#begin_range").val(min);
 $("input#end_range").val(max);
 
+// 1.5 Auto load SLOT #1
+loadCurrentSlot(); updateSlotDisplay();
 
 // 2. Make the chart appeared at the first glance. 
 //    (No blank white area on the right side)
@@ -40,6 +42,9 @@ $("body > table:nth-child(2) table:nth-child(6)").attr("id", "tableFuture").addC
 $("table.play").on("keyup", "input[type=text]", function(e) {
 	var code = (e.keyCode ? e.keyCode : e.which);
 	if (code == 13) drawChart();
+	
+	// auto save
+	saveCurrentSlot(); updateSlotDisplay();
 });
 
  
@@ -54,4 +59,9 @@ $(".tableSlot1 input[type=button]:eq(0), .tableSlot input[type=button]:eq(2)")
 	if (!confirm(msg)) e.preventDefaults();
 });
 
-// EOF.
+
+// 9. Experimental (Not use).
+// $("table.play").on("click", "tbody input[type=button]", function() { 
+// 	drawChart();
+// })
+// $("#tableFuture").append(localStorage.getItem("SLOT_2"))
