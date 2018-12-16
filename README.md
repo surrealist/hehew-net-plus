@@ -25,7 +25,7 @@ Left-side is the screen after add `hehew-net-plus`. The original is on the right
 
 **Note:** Set the options to make it works.  
 
-![image](https://user-images.githubusercontent.com/344784/50050100-23598d80-0125-11e9-81dd-08adaf8a5f6b.png)
+![image](https://user-images.githubusercontent.com/344784/50050304-84836000-0129-11e9-8c87-bcfc004a5790.png)
 
 ## Star 
 :star:  
