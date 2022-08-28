@@ -1,7 +1,7 @@
 # hehew-net-plus
 Cleaner user interface and some more functions
 
-Enhance [Hehew.net](https://options.hehew.io) web site with additional styles and code.
+Enhance [Hehew.io](https://options.hehew.io) web site with additional styles and code.
 
 ## Features
 * Cleaner user interface
