@@ -1,7 +1,7 @@
 # hehew-net-plus
 Cleaner user interface and some more functions
 
-Enhance [Hehew.net](http://hehew.net) web site with additional styles and code.
+Enhance [Hehew.net](https://options.hehew.io) web site with additional styles and code.
 
 ## Features
 * Cleaner user interface
@@ -16,7 +16,7 @@ Left-side is the screen after add `hehew-net-plus`. The original is on the right
 
 ## How to use
 0. Add Google Chrome Extension [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)
-1. Go to the http://hehew.net and click the `User JavaScript and CSS` icon at right-side of the Chrome address bar.  
+1. Go to the https://options.hehew.io and click the `User JavaScript and CSS` icon at right-side of the Chrome address bar.  
 ![image](https://user-images.githubusercontent.com/344784/49923113-151d2e80-fee5-11e8-9317-b1bdb3b9906c.png)
 2. Open `Plus.css` file in this Github, then copy and paste its content to the CSS (right-side)
 3. Open `Plus.js` then copy and paste its content to JS (left-side).
